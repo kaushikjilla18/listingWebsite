@@ -2,9 +2,10 @@ body{
     margin:auto;
     overflow-x: hidden;
     background-color: lavender;
+    width: 100%;
 }
 #header{
-    height:60px;
+    height:55px;
     width:100%;
     background-color: lightslategrey;
     margin-left: 0px;
@@ -131,5 +132,16 @@ a{
 .button{
     font-size: 15px;
     color: midnightblue;
-    /* margin-top: 20px; */
+}
+.footer-left{
+    margin-top: -36px;
+    text-align: left;
+}
+.footer-right{
+    margin-top: -87px;
+    text-align: right;
+    margin-right: 36px;
+}
+.clr{
+    color: rgb(240, 230, 230);
 }
